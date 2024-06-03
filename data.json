@@ -1,0 +1,400 @@
+{
+  "terms": [
+    {
+      "name": "PHP",
+      "description": "PHP (Hypertext Preprocessor) é uma linguagem de script amplamente utilizada para desenvolvimento web e pode ser embutida em HTML."
+    },
+    {
+      "name": "Composer",
+      "description": "Composer é um gerenciador de dependências para PHP, permitindo que você declare as bibliotecas que seu projeto depende e as instale."
+    },
+    {
+      "name": "Laravel",
+      "description": "Laravel é um framework web PHP, conhecido por sua sintaxe elegante e ferramentas robustas para desenvolvimento rápido de aplicativos."
+    },
+    {
+      "name": "Symfony",
+      "description": "Symfony é um conjunto de componentes PHP reutilizáveis e um framework web para criar aplicações e sites."
+    },
+    {
+      "name": "CodeIgniter",
+      "description": "CodeIgniter é um framework PHP poderoso e simples de usar, construído para desenvolvedores que precisam de um toolkit elegante para criar aplicativos web completos."
+    },
+    {
+      "name": "CakePHP",
+      "description": "CakePHP é um framework PHP rápido de desenvolvimento que proporciona uma estrutura extensível para desenvolvedores criar aplicativos web."
+    },
+    {
+      "name": "Zend Framework",
+      "description": "Zend Framework é uma coleção de pacotes PHP profissionais com mais de 570 milhões de instalações."
+    },
+    {
+      "name": "GO",
+      "description": "Go é uma linguagem de programação criada pela Google, conhecida por sua simplicidade, eficiência e forte suporte para concorrência."
+    },
+    {
+      "name": "Goroutine",
+      "description": "Goroutines são funções ou métodos que podem ser executados concorrentemente com outras funções ou métodos em Go."
+    },
+    {
+      "name": "Channel",
+      "description": "Channels são uma forma de comunicação segura entre goroutines em Go, permitindo a passagem de dados de uma goroutine para outra."
+    },
+    {
+      "name": "Go Modules",
+      "description": "Go Modules é o sistema de gerenciamento de dependências e versionamento para projetos Go."
+    },
+    {
+      "name": "Gin",
+      "description": "Gin é um framework web escrito em Go, conhecido por ser rápido e minimalista."
+    },
+    {
+      "name": "Echo",
+      "description": "Echo é um framework web de alto desempenho em Go, que fornece uma sintaxe fácil de usar e suporte a middleware."
+    },
+    {
+      "name": "Beego",
+      "description": "Beego é um framework de aplicativo web em Go, que possui características integradas de web e ORM (Object-Relational Mapping)."
+    },
+    {
+      "name": "GORM",
+      "description": "GORM é um ORM (Object-Relational Mapping) para Go, oferecendo uma API poderosa e flexível para interagir com bancos de dados."
+    },
+    {
+      "name": "C#",
+      "description": "C# é uma linguagem de programação moderna e orientada a objetos, desenvolvida pela Microsoft como parte da plataforma .NET."
+    },
+    {
+      "name": ".NET Core",
+      "description": ".NET Core é uma plataforma de desenvolvimento de código aberto e multiplataforma, ideal para a criação de aplicativos modernos e escaláveis."
+    },
+    {
+      "name": "ASP.NET",
+      "description": "ASP.NET é uma estrutura para desenvolvimento de aplicativos web e serviços, utilizando a linguagem de programação C#."
+    },
+    {
+      "name": "Entity Framework",
+      "description": "Entity Framework é uma biblioteca de mapeamento objeto-relacional (ORM) para .NET, que facilita o trabalho com bancos de dados."
+    },
+    {
+      "name": "Xamarin",
+      "description": "Xamarin é uma plataforma para desenvolvimento de aplicativos móveis usando C# e .NET, permitindo criar aplicativos para Android, iOS e Windows com um único código."
+    },
+    {
+      "name": "Blazor",
+      "description": "Blazor é uma estrutura para criação de interfaces web interativas usando C# em vez de JavaScript."
+    },
+    {
+      "name": "LINQ",
+      "description": "Language Integrated Query (LINQ) é um componente do .NET que adiciona recursos de consulta às linguagens de programação C#."
+    },
+    {
+      "name": "Python",
+      "description": "Python é uma linguagem de programação de alto nível, conhecida por sua sintaxe clara e legibilidade, amplamente utilizada para desenvolvimento web, ciência de dados, automação e mais."
+    },
+    {
+      "name": "Django",
+      "description": "Django é um framework web de alto nível para Python, que incentiva o desenvolvimento rápido e o design limpo e pragmático."
+    },
+    {
+      "name": "Flask",
+      "description": "Flask é um microframework para Python baseado em WSGI, projetado para ser simples e extensível."
+    },
+    {
+      "name": "Pandas",
+      "description": "Pandas é uma biblioteca de software escrita para a linguagem de programação Python para manipulação e análise de dados."
+    },
+    {
+      "name": "NumPy",
+      "description": "NumPy é uma biblioteca para a linguagem Python que suporta arrays e matrizes grandes e multidimensionais, juntamente com uma grande coleção de funções matemáticas de alto nível para operar nesses arrays."
+    },
+    {
+      "name": "TensorFlow",
+      "description": "TensorFlow é uma biblioteca de código aberto para machine learning desenvolvida pela Google."
+    },
+    {
+      "name": "Keras",
+      "description": "Keras é uma API de redes neurais de alto nível, escrita em Python e capaz de rodar sobre TensorFlow, CNTK ou Theano."
+    },
+    {
+      "name": "SciPy",
+      "description": "SciPy é uma biblioteca Python usada para computação científica e técnica."
+    },
+    {
+      "name": "Ruby",
+      "description": "Ruby é uma linguagem de programação dinâmica, aberta e orientada a objetos, com foco na simplicidade e produtividade."
+    },
+    {
+      "name": "Ruby on Rails",
+      "description": "Ruby on Rails, ou Rails, é um framework de aplicação web escrito em Ruby, que segue o padrão Model-View-Controller (MVC)."
+    },
+    {
+      "name": "Sinatra",
+      "description": "Sinatra é uma biblioteca de domínio específico (DSL) para a criação de aplicações web em Ruby."
+    },
+    {
+      "name": "RSpec",
+      "description": "RSpec é uma ferramenta de teste para a linguagem de programação Ruby, utilizada para testar código Ruby."
+    },
+    {
+      "name": "Capybara",
+      "description": "Capybara é uma biblioteca de testes de integração para Ruby, usada para simular como um usuário interage com uma aplicação web."
+    },
+    {
+      "name": "Rake",
+      "description": "Rake é uma ferramenta de automação de tarefas para Ruby, semelhante ao make em Unix."
+    },
+    {
+      "name": "Puma",
+      "description": "Puma é um servidor HTTP de código aberto para aplicações Ruby/Rack."
+    },
+    {
+      "name": "JavaScript",
+      "description": "JavaScript (JS) é uma linguagem de programação interpretada, comumente usada para criar scripts em páginas web."
+    },
+    {
+      "name": "Node.js",
+      "description": "Node.js é um ambiente de execução JavaScript server-side, que permite executar código JavaScript no lado do servidor."
+    },
+    {
+      "name": "React",
+      "description": "React é uma biblioteca JavaScript para construção de interfaces de usuário, mantida pelo Facebook."
+    },
+    {
+      "name": "Angular",
+      "description": "Angular é um framework front-end baseado em TypeScript, mantido pelo Google, para construção de aplicações web dinâmicas."
+    },
+    {
+      "name": "Vue.js",
+      "description": "Vue.js é um framework JavaScript progressivo para construção de interfaces de usuário."
+    },
+    {
+      "name": "Express",
+      "description": "Express é um framework web para Node.js, projetado para construção de APIs e aplicações web."
+    },
+    {
+      "name": "Webpack",
+      "description": "Webpack é um empacotador de módulos JavaScript, utilizado para agrupar múltiplos módulos em um único arquivo ou em arquivos menores para um carregamento mais eficiente."
+    },
+    {
+      "name": "TypeScript",
+      "description": "TypeScript é um superconjunto sintático estrito de JavaScript que adiciona tipagem estática opcional à linguagem."
+    },
+    {
+      "name": "jQuery",
+      "description": "jQuery é uma biblioteca JavaScript rápida e concisa que simplifica a manipulação de documentos HTML, tratamento de eventos e animação."
+    },
+    {
+      "name": "Svelte",
+      "description": "Svelte é um framework para construção de interfaces de usuário que compila seus componentes para JavaScript eficiente."
+    },
+    {
+      "name": "Backbone.js",
+      "description": "Backbone.js é uma biblioteca JavaScript para construção de aplicações web estruturadas usando modelos com ligação chave-valor e coleções com eventos."
+    },
+    {
+      "name": "Ember.js",
+      "description": "Ember.js é um framework JavaScript para construção de aplicações web ambiciosas, que segue a convenção sobre configuração."
+    },
+    {
+      "name": "Knockout.js",
+      "description": "Knockout.js é uma biblioteca JavaScript que permite criar interfaces de usuário dinâmicas com data-binding declarativo e uma MVVM (Model-View-ViewModel) amigável."
+    },
+    {
+      "name": "Three.js",
+      "description": "Three.js é uma biblioteca JavaScript que permite criar gráficos 3D no navegador usando WebGL."
+    },
+    {
+      "name": "D3.js",
+      "description": "D3.js é uma biblioteca JavaScript para manipulação de documentos baseado em dados, utilizando HTML, SVG e CSS."
+    },
+    {
+      "name": "Next.js",
+      "description": "Next.js é um framework de desenvolvimento front-end React, que permite a renderização híbrida estática e server-side de páginas web."
+    },
+    {
+      "name": "Nuxt.js",
+      "description": "Nuxt.js é um framework baseado em Vue.js para construir aplicações Vue universais, com renderização no lado do servidor."
+    },
+    {
+      "name": "Gatsby",
+      "description": "Gatsby é um gerador de sites estáticos baseado em React, que usa GraphQL para trazer dados e gerar páginas."
+    },
+    {
+      "name": "Electron",
+      "description": "Electron é um framework para criação de aplicações desktop com tecnologias web, como JavaScript, HTML e CSS."
+    },
+    {
+      "name": "Babel",
+      "description": "Babel é um transpilador JavaScript que converte o código ECMAScript 2015+ em uma versão retrocompatível em navegadores ou ambientes atuais."
+    },
+    {
+      "name": "Grunt",
+      "description": "Grunt é um executor de tarefas JavaScript, usado para automatizar processos de desenvolvimento, como minificação, compilação e teste de código."
+    },
+    {
+      "name": "Gulp",
+      "description": "Gulp é um executor de tarefas JavaScript, utilizado para automatizar tarefas de desenvolvimento e fluxo de trabalho, como construção e compilação de arquivos."
+    },
+    {
+      "name": "Mocha",
+      "description": "Mocha é um framework de testes JavaScript para Node.js e navegador, projetado para testes assíncronos."
+    },
+    {
+      "name": "Jest",
+      "description": "Jest é um framework de testes JavaScript com foco em simplicidade, com suporte para mocks e testes assíncronos."
+    },
+    {
+      "name": "Chai",
+      "description": "Chai é uma biblioteca de asserção para Node e o navegador, que pode ser combinada com qualquer framework de testes JavaScript."
+    },
+    {
+      "name": "Cypress",
+      "description": "Cypress é uma ferramenta de teste de ponta a ponta para aplicações web, construída sobre Mocha."
+    },
+    {
+      "name": "Protractor",
+      "description": "Protractor é uma estrutura de testes de ponta a ponta para aplicações Angular e AngularJS."
+    },
+    {
+      "name": "Karma",
+      "description": "Karma é um executor de testes JavaScript que roda em múltiplos navegadores."
+    },
+    {
+      "name": "QUnit",
+      "description": "QUnit é um framework de testes JavaScript usado pelo projeto jQuery, desenvolvido para testar qualquer código JavaScript."
+    },
+    {
+      "name": "AVA",
+      "description": "AVA é um framework de testes JavaScript que executa testes simultaneamente, projetado para testes de alto desempenho."
+    },
+    {
+      "name": "Sinon.js",
+      "description": "Sinon.js é uma biblioteca JavaScript para espiões, stubs e mocks, usada para testar comportamento em testes JavaScript."
+    },
+    {
+      "name": "Enzyme",
+      "description": "Enzyme é uma biblioteca de teste JavaScript para React, que torna mais fácil testar a saída de componentes React."
+    },
+    {
+      "name": "Storybook",
+      "description": "Storybook é uma ferramenta de desenvolvimento para UI components em isolamento para React, Vue, Angular e mais."
+    },
+    {
+      "name": "Apollo",
+      "description": "Apollo é uma plataforma de GraphQL que ajuda a construir, gerenciar e consultar APIs GraphQL."
+    },
+    {
+      "name": "Relay",
+      "description": "Relay é um framework JavaScript para construir aplicações React que consomem dados via GraphQL."
+    },
+    {
+      "name": "GraphQL",
+      "description": "GraphQL é uma linguagem de consulta para APIs e um runtime para executar consultas por meio do seu sistema de tipos."
+    },
+    {
+      "name": "Prisma",
+      "description": "Prisma é um ORM para Node.js e TypeScript que torna o banco de dados acessível através de uma API de alto nível."
+    },
+    {
+      "name": "Strapi",
+      "description": "Strapi é um CMS (Content Management System) de código aberto, baseado em Node.js, para a construção de APIs e gestão de conteúdo."
+    },
+    {
+      "name": "KeystoneJS",
+      "description": "KeystoneJS é um framework de CMS e aplicação web, construído sobre Node.js, que usa MongoDB como backend."
+    },
+    {
+      "name": "NestJS",
+      "description": "NestJS é um framework para construção de aplicações Node.js eficientes e escaláveis, usando TypeScript."
+    },
+    {
+      "name": "Sapper",
+      "description": "Sapper é um framework para a construção de aplicações web, criado pelo mesmo autor do Svelte."
+    },
+    {
+      "name": "JSDoc",
+      "description": "JSDoc é uma ferramenta para adicionar comentários de documentação a código JavaScript, gerando documentação HTML."
+    },
+    {
+      "name": "Swagger",
+      "description": "Swagger é um conjunto de ferramentas de software de código aberto para projetar, construir, documentar e usar serviços web RESTful."
+    },
+    {
+      "name": "JSON",
+      "description": "JSON (JavaScript Object Notation) é um formato de intercâmbio de dados leve, fácil para humanos escreverem e lerem e para máquinas interpretarem e gerarem."
+    },
+    {
+      "name": "AJAX",
+      "description": "AJAX (Asynchronous JavaScript and XML) é uma técnica de desenvolvimento web para criar aplicações interativas e rápidas."
+    },
+    {
+      "name": "Fetch API",
+      "description": "Fetch API fornece uma interface JavaScript para acessar e manipular partes do canal HTTP, como requisições e respostas."
+    },
+    {
+      "name": "XMLHttpRequest",
+      "description": "XMLHttpRequest é uma API JavaScript que fornece funcionalidades para cliente criar requisições HTTP."
+    },
+    {
+      "name": "Service Workers",
+      "description": "Service Workers são scripts que seu navegador executa em segundo plano, separados da página web, permitindo recursos como notificações push e sincronização em segundo plano."
+    },
+    {
+      "name": "IndexedDB",
+      "description": "IndexedDB é uma API de baixo nível para armazenamento de grandes quantidades de dados estruturados no navegador."
+    },
+    {
+      "name": "LocalStorage",
+      "description": "LocalStorage é uma API JavaScript para armazenar dados localmente no navegador, sem expiração."
+    },
+    {
+      "name": "SessionStorage",
+      "description": "SessionStorage é uma API JavaScript para armazenar dados para a duração da sessão da página."
+    },
+    {
+      "name": "WebSockets",
+      "description": "WebSockets é um protocolo de comunicação que proporciona canais de comunicação full-duplex sobre uma única conexão TCP."
+    },
+    {
+      "name": "WebRTC",
+      "description": "WebRTC é uma tecnologia que permite comunicação de áudio, vídeo e dados diretamente entre navegadores, sem plugins."
+    },
+    {
+      "name": "Push API",
+      "description": "Push API permite que os servidores enviem notificações para uma aplicação web, mesmo quando o aplicativo não está ativo."
+    },
+    {
+      "name": "Canvas API",
+      "description": "Canvas API é uma interface que permite desenhar gráficos e animações em um elemento HTML <canvas> via JavaScript."
+    },
+    {
+      "name": "SVG",
+      "description": "SVG (Scalable Vector Graphics) é um formato de imagem baseado em XML para gráficos vetoriais bidimensionais com suporte para interatividade e animação."
+    },
+    {
+      "name": "WebGL",
+      "description": "WebGL é uma API JavaScript para renderização de gráficos 2D e 3D interativos dentro de qualquer navegador compatível, sem a necessidade de plugins."
+    },
+    {
+      "name": "Polymer",
+      "description": "Polymer é uma biblioteca JavaScript para criação de componentes web reutilizáveis."
+    },
+    {
+      "name": "LitElement",
+      "description": "LitElement é uma base leve para a construção de componentes web rápidos, utilizando lit-html para renderização eficiente."
+    },
+    {
+      "name": "Stencil",
+      "description": "Stencil é um compilador para gerar componentes web reutilizáveis que funcionam em qualquer framework ou sem framework."
+    },
+    {
+      "name": "Bootstrap",
+      "description": "Bootstrap é um framework front-end de código aberto para desenvolvimento de sites e aplicações web responsivas e móveis."
+    },
+    {
+      "name": "Tailwind CSS",
+      "description": "Tailwind CSS é um framework CSS utilizado para construir designs personalizados sem sair do HTML."
+    }
+  ]
+}
