@@ -3,6 +3,7 @@
 class FilterPHP extends php_user_filter
 {
     public $stream;
+    public string $filter;
 
     public function onCreate(): bool
     {
@@ -12,25 +13,19 @@ class FilterPHP extends php_user_filter
 
     public function filter($in, $out, &$consumed, $closing): int
     {
+        $this->filter = 'PHP';
         $out_data = '';
         while ($bucket = stream_bucket_make_writeable($in)) {
-            $data = json_decode($bucket->data, true);
-            if (json_last_error() !== JSON_ERROR_NONE || !isset($data['terms']) || !is_array($data['terms'])) {
-                continue;
+            $line = explode("\n", $bucket->data);
+            foreach ($line as $l) {
+                if (str_contains($l, $this->filter)) {
+                    $out_data .= $l . "\n";
+                }
             }
-
-            $filteredTerms = array_filter($data['terms'], function ($term) {
-                return stripos($term['name'], 'PHP') !== false || stripos($term['description'], 'PHP') !== false;
-            });
-
-            $out_data .= json_encode(['terms' => array_values($filteredTerms)], JSON_PRETTY_PRINT);
-            $consumed += $bucket->datalen;
         }
 
-        if ($out_data !== '') {
-            $bucket_out = stream_bucket_new($this->stream, $out_data);
-            stream_bucket_append($out, $bucket_out);
-        }
+        $bucket_out = stream_bucket_new($this->stream, $out_data);
+        stream_bucket_append($out, $bucket_out);
 
         return PSFS_PASS_ON;
     }

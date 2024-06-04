@@ -1,27 +1,29 @@
 <?php
 
-require_once 'FilterPHP.php';
+require_once './FilterPHP.php';
 
-$json = 'https://api.github.com/repos/php/php-src/git/trees/master?recursive=1';
+$json = 'https://raw.githubusercontent.com/sschonss/stream-php/main/data.json';
 
-$stream = fopen($json, 'r');
+$fileContents = file_get_contents($json);
 
-if ($stream === false) {
-    die('Failed to open stream to the endpoint.');
+if ($fileContents === false) {
+    die('Failed to fetch data from the endpoint.');
 }
+
+stream_filter_register('filterphp', 'FilterPHP') or die("Failed to register filter.");
 
 $tempStream = fopen('php://temp', 'r+');
-
-stream_copy_to_stream($stream, $tempStream);
-
+fwrite($tempStream, $fileContents);
 rewind($tempStream);
 
-stream_filter_register('php.filter', 'FilterPHP');
-stream_filter_append($tempStream, 'php.filter');
+$out_fp = fopen('php://stdout', 'w') or die("Failed to open output stream.");
+stream_filter_append($tempStream, 'filterphp');
 
-while (!feof($tempStream)) {
-    echo fread($tempStream, 1024);
+while ($data = fread($tempStream, 1024)) {
+    $data = str_replace('"name": ', '', $data);
+    $data = str_replace('"description":', '', $data);
+    echo $data;
 }
 
-fclose($stream);
 fclose($tempStream);
+fclose($out_fp);
